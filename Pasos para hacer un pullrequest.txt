@@ -1,0 +1,46 @@
+hacer el branch en el repo.
+
+ls
+
+git clone https:// ....  
+
+git clone https://github.com/desdemicuenta ....  
+
+..........
+
+mkdir cambiosHextor // Crear carpeta
+
+cd cambiosHextor
+git 
+touch jorgito{1..10}.txt //para crear archivos.
+touch jorgenew.txt //para crear 1 archivo
+
+echo "hola Jorgito" >> jorgenew.txt
+
+cat jorgenew.txt // muestra el archivo
+
+cd..
+
+1)git add . // para añadir todo lo que hay en la carpeta
+
+git status
+
+2)git commit - m "elmensaje"  
+
+3)git push
+
+git status
+
+y en el ordenador(github.com) poner el pull-request
+--------------------------------------------------------------------------
+
+git checkout  // para cambiar de rama
+git co 
+
+git branch // devuelve la rama en la q estoy
+
+git checkout -b versionhector // cambio de rama a versionhector
+
+git add .
+git commit
+git push --set-upstream origin versionhector
